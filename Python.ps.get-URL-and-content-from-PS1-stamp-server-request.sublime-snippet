@@ -1,0 +1,28 @@
+<snippet>
+    <content><![CDATA[
+from panstamps.downloader import downloader
+content, status_code, url = downloader(
+    log=log,
+    settings=False,
+    fits=False,
+    jpeg=True,
+    arcsecSize=600,
+    filterSet='gri',
+    color=True,
+    singleFilters=True,
+    ra="70.60271",
+    dec="-21.72433",
+    imageType="stack"
+).get_html_content() 
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>xps-get-URL-and-content-from-PS1-stamp-server-request</tabTrigger>
+    <!-- Required: Base Phrase to generate tab-triggers -->
+    <triggerBase>get-URL-and-content-from-PS1-stamp-server-request</triggerBase>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>snip</description>
+    <!-- Optional: Tags to help with tab completion -->
+    <tags></tags>
+</snippet>

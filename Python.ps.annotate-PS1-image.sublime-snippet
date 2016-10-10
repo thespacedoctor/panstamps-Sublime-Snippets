@@ -1,0 +1,26 @@
+<snippet>
+    <content><![CDATA[
+from panstamps.image import image
+myimage = image(
+    log=log,
+    settings=False,
+    imagePath=${1:imagePath},
+    arcsecSize=120,
+    crosshairs=True,
+    transient=False,
+    scale=True,
+    invert=False,
+    greyscale=False
+).get()
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>xps-annotate-PS1-image</tabTrigger>
+    <!-- Required: Base Phrase to generate tab-triggers -->
+    <triggerBase>annotate-PS1-image</triggerBase>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>snip</description>
+    <!-- Optional: Tags to help with tab completion -->
+    <tags></tags>
+</snippet>

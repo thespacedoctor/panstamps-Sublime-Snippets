@@ -1,0 +1,11 @@
+{
+"scope": "source.python",
+"completions":
+[
+   
+	{ "trigger": "ps> annotate PS1 image\tcomp", "contents": "xps-annotate-PS1-image" },
+	{ "trigger": "ps> download images from ps1 stamp server\tcomp", "contents": "xps-download-images-from-ps1-stamp-server" },
+	{ "trigger": "ps> get URL and content from PS1 stamp server request\tcomp", "contents": "xps-get-URL-and-content-from-PS1-stamp-server-request" },
+	{ "trigger": "ps> get remote URLs for PS1 images from stamp server\tcomp", "contents": "xps-get-remote-URLs-for-PS1-images-from-stamp-server" } 
+]
+}
